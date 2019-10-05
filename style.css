@@ -1,0 +1,34 @@
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+.newDog {
+    margin-bottom: 20px;
+    font-size:30px;
+    font-family:  "Comic Sans MS";
+    border: none;
+    text-decoration: none;
+
+}
+
+.newDogWrapper{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.newDog:hover {
+    background-color: gray;
+}
+
+
+.doggos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.dogger {
+    /* border: 1px solid black */
+}
+/* make images smaller, add border around images, normalize into grid */
