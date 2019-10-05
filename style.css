@@ -1,6 +1,14 @@
 h1{
     font-size: 80px;
     text-align: center;
+    background-color: #DDE0E3;
+    /* display: inline; */
+}
+
+.titleWrapper{
+    width: 50%;
+    padding: 0;
+    margin: 0 auto;
 }
 .newDog {
     margin-bottom: 20px;
@@ -28,7 +36,11 @@ h1{
     align-items: flex-start;
     align-content: flex-start;
 }
-.dogger {
-    /* border: 1px solid black */
+body {
+    background-image: url('https://images.all-free-download.com/images/graphiclarge/dog_foot_prints_background_repeating_design_6828604.jpg')
 }
+
+/* .dogger {
+    border: 1px solid black 
+} */
 /* make images smaller, add border around images, normalize into grid */
